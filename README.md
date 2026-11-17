@@ -30,7 +30,7 @@ These values describe the original notebook; they are not evidence of a successf
 3. Put a WMT14 CSV with a `translation` column (mapping `en`/`fr`) in `data/wmt14_en_fr_10k.csv`, or run the optional dataset download cell in the notebook. Despite the filename, the original download requested 500,001 examples.
 4. Open `notebooks/transformer_translation.ipynb` **from the repository root** and run its cells in order. The notebook resolves the project root automatically.
 
-**Note:** A full training run has not been verified in this environment. Data downloads can be large and GPU training may be time-consuming. This repository intentionally excludes the PDF report, dataset, and large model checkpoints.
+**Note:** A full training run has not been verified in this environment. Data downloads can be large and GPU training may be time-consuming. This repository includes the PDF report, dataset, and large model checkpoints.
 
 ## Implementation notes
 
