@@ -7,7 +7,6 @@ This project explores recurrent neural networks, LSTM gating and gradient flow, 
 ## Repository contents
 
 - [`notebooks/transformer_translation.ipynb`](notebooks/transformer_translation.ipynb): reorganized notebook with experiments, explanations, and results.
-- [`notebooks/original_transformer_translation.ipynb`](notebooks/original_transformer_translation.ipynb): untouched original submission for reference.
 - [`src/transformer_model.py`](src/transformer_model.py): embeddings, positional encoding, Transformer, attention masks.
 - [`src/data_preprocessing.py`](src/data_preprocessing.py): translation dataset, parsing, tokenization, vocabularies, batching.
 - [`src/train.py`](src/train.py): training and validation epochs.
