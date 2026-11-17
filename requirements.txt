@@ -1,0 +1,14 @@
+# Verify versions in a compatible environment before training.
+# The original notebook requested torch==1.13.1 and torchtext==0.14.1.
+# These historical versions may not support current Python installations.
+torch
+torchtext
+spacy
+pandas
+numpy
+scikit-learn
+datasets
+matplotlib
+tqdm
+nltk
+jupyter
